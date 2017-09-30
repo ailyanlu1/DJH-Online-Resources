@@ -1,0 +1,170 @@
+#sideBar a,.newsItem a,#profile_block{
+  font-size:13px;
+}
+#profile_block{
+  padding-top:20px;
+}
+html,body{
+	margin:0px;
+ background-color:#000;
+}
+#canvas{
+	width:100%;
+}
+
+#home{
+  margin-top:0px;
+}
+/*广告*/
+#under_post_news,#ad_t2,#under_post_kb,#cnblogs_c1,#cnblogs_c2{
+ display:none;
+}
+
+#profile_block a{
+ font-size: 10px;
+ margin:15px 0;
+}
+
+#MySignature{
+  font-size: 16px;
+  font-weight: bold;
+  color: #548B54;
+}
+
+/*标题*/
+#blogTitle{
+  background: rgba(12, 100, 129, 0) url('http://www.linuxidc.com/upload/2017_05/170516122133671.png')  fixed no-repeat;
+  background-position: 50% 5%; 
+  background-size: cover;
+  height: 240px;  /*高度*/
+  clear: both;
+  text-align:center;
+}
+
+#blogTitle h1 {
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 1.8em;/*原始 1.6em*/
+  padding-top: 50px;/*原始 15px */
+}
+
+#blogTitle h2 {
+  font-weight: normal;
+  font-size: 17px;/*原始 16px ；font-size: 1.0rem;*/      
+  line-height: 1.8;
+  font-weight: bold;
+  text-align: right;
+  float: right; 
+  color: #000;
+  padding:30px 20px 0 0;
+}
+
+#navigator{
+  border: 0;
+}
+
+#navList a{
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.clear{
+  margin-bottom:25px;
+}
+#cb_post_title_url{
+ font-size: 20px;
+ font-weight: bold;
+}
+li{
+  font-size: 10px;
+  margin:15px 0;
+}
+#sideBar{
+  padding-right:25px;
+}
+
+
+/* 小火箭css */
+#gotop1 {
+  width: 80px;
+  position: fixed;
+  bottom: 90px;
+  cursor: pointer;
+  z-index: 99998;
+  right: 50%;
+  margin-right: -620px;
+}
+
+/* 小火箭悬停特效 */
+
+#gotop1:hover {
+  animation: rubberBand 1s;
+}
+
+@keyframes rubberBand {
+  from {
+    transform: scale3d(1, 1, 1);
+  }
+
+  30% {
+    transform: scale3d(1.25, 0.75, 1);
+  }
+
+  40% {
+    transform: scale3d(0.75, 1.25, 1);
+  }
+
+  50% {
+    transform: scale3d(1.15, 0.85, 1);
+  }
+
+  65% {
+    transform: scale3d(.95, 1.05, 1);
+  }
+
+  75% {
+    transform: scale3d(1.05, .95, 1);
+  }
+
+  to {
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+
+
+/*音乐css*/
+#lanren #audio-btn{width: 44px;height: 44px; margin:10px auto;background-size: 100% 100%;}
+#lanren .on{background: url('http://demo.lanrenzhijia.com/2015/music0423/images/music_on.png') no-repeat 0 0;-webkit-animation: rotating 1.2s linear infinite;animation: rotating 1.2s linear infinite;}
+#lanren .off{background: url('http://demo.lanrenzhijia.com/2015/music0423/images/music_off.png') no-repeat 0 0;}
+@-webkit-keyframes rotating {
+	from{
+		-webkit-transform: rotate(0deg);
+		-moz-transform: rotate(0deg);
+		-ms-transform: rotate(0deg);
+		-o-transform: rotate(0deg);
+   transform: rotate(0deg);
+ }
+ to{
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+}
+@keyframes rotating {
+  from{
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to{
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
