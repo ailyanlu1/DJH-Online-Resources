@@ -33,7 +33,7 @@ html,body{
 
 /*标题*/
 #blogTitle{
-  background: rgba(12, 100, 129, 0) url('http://www.linuxidc.com/upload/2017_05/170516122133671.png')  fixed no-repeat;
+  background: rgba(12, 100, 129, 0) url('https://raw.githubusercontent.com/jasonhavenD/online_resources/master/cnblogs/images/170516122133671.png')  fixed no-repeat;
   background-position: 50% 5%; 
   background-size: cover;
   height: 240px;  /*高度*/
@@ -135,8 +135,8 @@ li{
 
 /*音乐css*/
 #lanren #audio-btn{width: 44px;height: 44px; margin:10px auto;background-size: 100% 100%;}
-#lanren .on{background: url('http://demo.lanrenzhijia.com/2015/music0423/images/music_on.png') no-repeat 0 0;-webkit-animation: rotating 1.2s linear infinite;animation: rotating 1.2s linear infinite;}
-#lanren .off{background: url('http://demo.lanrenzhijia.com/2015/music0423/images/music_off.png') no-repeat 0 0;}
+#lanren .on{background: url('https://raw.githubusercontent.com/jasonhavenD/online_resources/master/cnblogs/images/music_on.png') no-repeat 0 0;-webkit-animation: rotating 1.2s linear infinite;animation: rotating 1.2s linear infinite;}
+#lanren .off{background: url('https://raw.githubusercontent.com/jasonhavenD/online_resources/master/cnblogs/images/music_off.png') no-repeat 0 0;}
 @-webkit-keyframes rotating {
 	from{
 		-webkit-transform: rotate(0deg);
