@@ -1,3 +1,40 @@
+#cnblogs_post_body h1    {
+        background: #2B6695;
+        border-radius: 10px;
+        box-shadow: 0 0 0 1px #5F5A4B, 1px 1px 6px 1px rgba(10, 10, 0, 0.5);
+        color: #FFFFFF;
+        font-family: "微软雅黑" , "宋体" , "黑体" ,Arial;
+        font-size: 18px;
+        font-weight: bold;
+        height: 25px;
+        line-height: 1.5em;
+        margin: 18px 0 !important;
+        padding: 8px 0 5px 5px;
+        text-shadow: 2px 2px 3px #222222;
+    }
+h4{
+   color: #fff;
+    background-color: #20b2aa;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    padding: 3px;
+    margin: 10px 0px;
+    text-shadow: 2px 2px 3px #404040;
+    line-height: 1.5em;
+    border-radius: 10px;
+}
+
+h3{
+   border-radius: 10px;
+    color: #fff;
+    background-color: #bf571a;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    padding: 3px;
+    margin: 10px 0px;
+    text-shadow: 2px 2px 3px #404040;
+    line-height: 1.5em;
+}
 #sideBar a,.newsItem a,#profile_block{
   font-size:13px;
 }
